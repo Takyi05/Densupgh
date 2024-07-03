@@ -1,0 +1,356 @@
+body{
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+    background-color:beige;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 20px;
+    z-index: 5;
+}
+.nav img{
+    border-radius: 400px;
+    mix-blend-mode:color-burn;
+    height: 70px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.nav ul li a:hover{
+	color:black;
+}
+.nav ul li a:after{
+	content: " ";
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background: black;
+	transition: 0.3s;
+	bottom: 0;
+}
+.nav ul li a:hover:after{
+	width: 100%;
+}
+.nav button{
+    background-color: rgb(211, 18, 18);
+}
+.nav i{
+    color:black;
+    display: none;
+}
+button{
+    padding: 20px 40px;
+     background-color: black;
+     color: whitesmoke;
+     border:none;
+ }
+ button:hover{
+     background:transparent;
+     color: black;
+     border: 2px solid black;
+     transition:0.4s ease-in-out;
+ }
+ .section2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+ }
+ .BG{
+    line-height: 1.5em;
+    margin-bottom: 40px;
+ }
+ .BG h1{
+    font-size: 2em;
+ }
+ .staff{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .card{
+    width: 30%;
+    height: 300px;
+    background-color: rgb(211, 18, 18);
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 0.6);
+ }
+ .card img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+ }
+ .card p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px;
+ }
+ .card h3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ footer{
+    position:relative;
+    bottom: -70px;
+    background-color:whitesmoke;
+    padding-bottom: 40px;
+}
+footer hr{
+    width: 80%;
+}
+footer h4{
+    text-align: center;
+}
+
+footer img{
+    border-radius: 400px;
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+}
+.fhero{
+    width:33.333333%;
+}
+.icons{
+    width:33.333333%;
+}
+.icons i{
+    font-size: 25px;
+}
+.gallery{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.gImages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Optional: Adds space between grid items */
+}
+
+.gImages img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+   
+}
+.sidebar{
+    background-color: rgba(255, 255, 255, 0.202);
+    backdrop-filter:blur(10px);
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index:97;
+    left: 60%;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+.sidebar.visible {
+    visibility: visible;
+    transform: translateX(0);
+}
+.sidebar ul{
+    list-style: none;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sidebar ul li{
+    width: 100%;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color:Black;
+    position: relative;
+    width: 100%;
+}
+.sidebar ul li a:hover{
+	color:black;
+}
+.sidebar ul li a:after{
+	content: " ";
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background: black;
+	transition: 0.3s;
+	bottom: 0;
+}
+.sidebar ul li a:hover:after{
+	width: 100%;
+}
+.sidebar button{
+    background-color: rgb(211, 18, 18);
+    width: 100%;
+}
+.sidebar button:hover{
+    background-color: transparent;
+}
+#backToTop {
+    /*display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+#backToTop:hover {
+    background-color: #555;
+}
+.paymentType{
+    background-color: rgba(255, 255, 255, 0.202);
+    backdrop-filter:blur(10px);
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index:98;
+    left: 60%;
+    visibility:hidden;
+    transform: translateX(100%);
+    transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+.paymentType.visible {
+    visibility: visible;
+    transform: translateX(0);
+}
+.paymentType ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.paymentType ul{
+    list-style: none;
+}
+.paymentType ul li{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.paymentType ul li:hover{
+    background-color: rgba(83, 75, 75, 0.124);
+}
+.paymentType ul li svg{
+    height: 20px;
+
+
+}
+.paymentType ul li img{
+    height: 20px;
+}
+.paymentType ul li{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .nav{
+        margin-left: 30px;
+    }
+	.nav ul,.nav button{
+        display:none;
+    }
+    .nav img{
+        height: 50px;
+    }
+    .nav .fa-solid.fa-bars{
+        display: block;
+    }
+    .BG h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .BG p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .section2 h2{
+        font-size: 20px;
+    }
+    .staff{
+        display: block;
+    }
+    .card{
+       width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 25px; 
+       line-height: 1em;
+    }
+    .gImages{
+        display: block;
+    }
+    footer{
+        top: 40px;
+    }
+    .fhero img{
+        height: 60px;
+    }
+    .fhero p{
+        font-size: 10px;
+    }
+    .icons h3{
+        font-size: 0.8em;
+    }
+    .aside{
+        font-size: 0.8em;
+    }
+    footer h4{
+        font-size: 0.8em;
+    }
+    #backToTop{
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .nav ul,.nav button{
+        display:none;
+    }
+    .nav .fa-solid.fa-bars{
+        display: block;
+    }
+    .card{
+        line-height: 1em;
+        font-size: 15px;
+    }
+    .gImages{
+        grid-template-columns:repeat(2, 1fr)
+    }
+}
