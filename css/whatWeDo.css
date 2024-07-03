@@ -201,7 +201,7 @@ footer img{
 }
 .sidebar{
     background-color:  rgba(255, 255, 255, 0.775);
-    backdrop-filter:blur(40px);
+    backdrop-filter:blur(70px);
     width: 40%;
     height: 100vh;
     position: fixed;
@@ -257,7 +257,7 @@ footer img{
 }
 .paymentType{
     background-color:  rgba(255, 255, 255, 0.775);
-    backdrop-filter:blur(40px);
+    backdrop-filter:blur(70px);
     width: 40%;
     height: 100vh;
     position: fixed;
