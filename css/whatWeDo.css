@@ -179,6 +179,9 @@ footer hr{
 footer h4{
     text-align: center;
 }
+.footer a{
+    color: black;
+}
 
 footer img{
     border-radius: 400px;
@@ -197,7 +200,7 @@ footer img{
     font-size: 25px;
 }
 .sidebar{
-    background-color: rgba(255, 255, 255, 0.202);
+    background-color:  rgba(255, 255, 255, 0.775);
     backdrop-filter:blur(40px);
     width: 40%;
     height: 100vh;
@@ -253,7 +256,7 @@ footer img{
     background-color: transparent;
 }
 .paymentType{
-    background-color: rgba(255, 255, 255, 0.202);
+    background-color:  rgba(255, 255, 255, 0.775);
     backdrop-filter:blur(40px);
     width: 40%;
     height: 100vh;

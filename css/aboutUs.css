@@ -132,6 +132,9 @@ footer img{
     display:flex;
     justify-content: space-evenly;
 }
+.footer a{
+    color: black;
+}
 .fhero{
     width:33.333333%;
 }
@@ -160,7 +163,7 @@ footer img{
    
 }
 .sidebar{
-    background-color: rgba(255, 255, 255, 0.202);
+    background-color:  rgba(255, 255, 255, 0.775);
     backdrop-filter:blur(40px);
     width: 40%;
     height: 100vh;
@@ -234,7 +237,7 @@ footer img{
     background-color: #555;
 }
 .paymentType{
-    background-color: rgba(255, 255, 255, 0.202);
+    background-color: rgba(255, 255, 255, 0.775);
     backdrop-filter:blur(40px);
     width: 40%;
     height: 100vh;
