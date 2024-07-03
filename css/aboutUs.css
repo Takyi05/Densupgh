@@ -237,7 +237,7 @@ footer img{
     background-color: #555;
 }
 .paymentType{
-    background-color: rgba(255, 255, 255, 0.775);
+    background-color: rgb(255, 255, 255);
     backdrop-filter:blur(70px);
     width: 40%;
     height: 100vh;
