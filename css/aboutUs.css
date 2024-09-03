@@ -61,13 +61,12 @@ button{
     padding: 20px 40px;
      background-color: black;
      color: whitesmoke;
-     border:none;
+     border: 0.1px solid black;
  }
  button:hover{
      background:transparent;
      color: black;
-     border: 2px solid black;
-     transition:0.4s ease-in-out;
+     transition:0.4s;
  }
  .section2{
     width: 80%;
@@ -91,7 +90,7 @@ button{
 
  .card{
     width: 30%;
-    height: 300px;
+    height: 450px;
     background-color: rgb(211, 18, 18);
     box-shadow: 10px 10px 10px rgb(0 0 0 / 0.6);
  }
@@ -99,7 +98,7 @@ button{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
+    height: 350px;
  }
  .card p{
     width: 80%;
@@ -151,17 +150,30 @@ footer img{
     margin-top: 50px;
 }
 .gImages {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px; /* Optional: Adds space between grid items */
+   max-width:600px;
+   margin: auto;
+   overflow: hidden;
 }
 
-.gImages img{
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
     width: 100%;
-    height: 350px;
-    object-fit: cover;
-   
 }
+
+.slides img {
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
 .sidebar{
     background-color:  rgba(255, 255, 255, 0.775);
     backdrop-filter:blur(70px);
@@ -315,6 +327,10 @@ footer img{
        margin-right: auto;
        margin-bottom: 25px; 
        line-height: 1em;
+       height: 350px;
+    }
+    .card img{
+        height: 250px;
     }
     .gImages{
         display: block;
@@ -352,6 +368,10 @@ footer img{
     .card{
         line-height: 1em;
         font-size: 15px;
+        height: 355px;
+    }
+    .card img{
+        height: 250px;
     }
     .gImages{
         grid-template-columns:repeat(2, 1fr)
