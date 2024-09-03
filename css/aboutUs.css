@@ -332,8 +332,14 @@ footer img{
     .card img{
         height: 250px;
     }
+    .gallery{
+        width: 100%;
+    }
     .gImages{
-        display: block;
+       width: 100%;
+    }
+    .slides img{
+        height: 400px;
     }
     footer{
         top: 40px;
