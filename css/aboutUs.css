@@ -143,36 +143,7 @@ footer img{
 .icons i{
     font-size: 25px;
 }
-.gallery{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-}
-.gImages {
-   max-width:600px;
-   margin: auto;
-   overflow: hidden;
-}
 
-.slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-}
-
-.slides img {
-    height: 500px;
-    width: 100%;
-    display: block;
-}
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
 
 .sidebar{
     background-color:  rgba(255, 255, 255, 0.775);
