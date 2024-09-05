@@ -282,6 +282,7 @@ footer img{
 @media screen and (max-width: 600px) {
     .nav{
         margin-left: 30px;
+        justify-content: space-between;
     }
 	.nav ul,.nav button{
         display:none;
@@ -354,6 +355,9 @@ footer img{
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
+    .nav{
+        justify-content: space-between;
+    }
     .nav ul,.nav button{
         display:none;
     }
