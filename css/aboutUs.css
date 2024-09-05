@@ -23,11 +23,12 @@ body{
 }
 .nav ul{
     list-style: none;
-    display: flex;
+    
+    
 }
 .nav ul li{
     display: inline-block;
-    margin-right: 70px;
+    margin-right: 50px;
 }
 .nav ul li a{
     text-decoration: none;
@@ -87,9 +88,22 @@ button{
     margin-left: auto;
     margin-right: auto;
  }
+ .staff2{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+ }
+ .staff2 .card{
+    width: 80%;
+
+ }
+ .staff2 .card img{
+    height: 300px;
+    width: 100%;
+ }
 
  .card{
-    width: 30%;
+    width: 28%;
     height: 450px;
     background-color: rgb(211, 18, 18);
     box-shadow: 10px 10px 10px rgb(0 0 0 / 0.6);
@@ -292,6 +306,18 @@ footer img{
     .staff{
         display: block;
     }
+    .staff2{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .staff2 .card{
+        line-height: 1em;
+        font-size: 0.8em;
+        height: 320px;
+    }
+    .staff2 .card img{
+        height: 220px;
+    }
     .card{
        width: 80%;
        margin-left: auto;
@@ -303,15 +329,7 @@ footer img{
     .card img{
         height: 250px;
     }
-    .gallery{
-        width: 90%;
-    }
-    .gImages{
-       width: 100%;
-    }
-    .slides img{
-        height: 400px;
-    }
+   
     footer{
         top: 40px;
     }
@@ -350,7 +368,8 @@ footer img{
     .card img{
         height: 250px;
     }
-    .gImages{
-        grid-template-columns:repeat(2, 1fr)
-    }
+     .staff2 .card img{
+        height: 250px;
+     }
+    
 }

@@ -27,7 +27,7 @@ body{
 }
 .nav ul li{
     display: inline-block;
-    margin-right: 70px;
+    margin-right: 50px;
 }
 .nav ul li a{
     text-decoration: none;
@@ -86,89 +86,40 @@ button{
 .section1 article ul li{
     list-style: disc;
 }
-.section1 .slider{
-    height:500px;
-    width: 700px;
-    box-shadow: 0 10px 10px rgb(0 0 0 / 0.6);
+.gallery{
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
+    margin-top: 10px;
 }
-.img-container{
-    animation:slide 50s infinite;
-    width: 100%;
+.gImages {
+   max-width:600px;
+   margin: auto;
+   overflow: hidden;
+}
+
+.slides {
     display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
 }
-.section1 img{
-    height:600px;
-    width: 700px;
- }
- @keyframes slide{
-    0%{
-        transform: translateX(0%);
-    }
-    9%{
-        transform: translateX(0%);
-    }
-    10%{
-        transform: translateX(-100%);
-    }
-    19%{
-        transform: translateX(-100%);
-    }
-    20%{
-        transform: translateX(-200%);
-    }
-    29%{
-        transform: translateX(-200%);
-    }
-    30%{
-        transform: translateX(-300%);
-    }
-    39%{
-        transform: translateX(-300%);
-    }
-    40%{
-        transform: translateX(-400%);
-    }
-    49%{
-        transform: translateX(-400%);
-    }
-    50%{
-        transform: translateX(-500%);
-    }
-    59%{
-        transform: translateX(-500%);
-    }
-    60%{
-        transform: translateX(-600%);
-    }
-    69%{
-        transform: translateX(-600%);
-    }
-    70%{
-        transform: translateX(-700%);
-    }
-    79%{
-        transform: translateX(-700%);
-    }
-    80%{
-        transform: translateX(-800%);
-    }
-    89%{
-        transform: translateX(-800%);
-    }
-    90%{
-        transform: translateX(-900%);
-    }
-    100%{
-        transform: translateX(-900%);
-    }
+
+.slides img {
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
 }
 
 footer{
     position:relative;
-    bottom: -550px;
+    bottom: -40px;
     background-color:whitesmoke;
     padding-bottom: 40px;
 }
@@ -321,7 +272,7 @@ footer img{
 
     }
     .section1 article h3{
-        font-size: 0.8em;
+        font-size: 1.5em;
         font-weight: bold;
         text-align: center;
         margin-bottom: -12px;
@@ -342,8 +293,23 @@ footer img{
         height: 300px;
         width: 100%;
     }
+    .gallery{
+        width: 90%;
+        margin-top: 150px;
+        line-height: 0.5em;
+    }
+    .gallery h1 , h2{
+        font-size:1.2em;
+
+    }
+    .gImages{
+       width: 100%;
+    }
+    .slides img{
+        height: 400px;
+    }
     footer{
-        top: 470px;
+        top: 50px;
     }
     .fhero img{
         height: 60px;
@@ -362,7 +328,7 @@ footer img{
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width:900px) {
 	.nav ul,.nav button{
         display:none;
     }
@@ -384,17 +350,12 @@ footer img{
         margin-bottom: 10px;
     }
     footer{
-        bottom: -620px;
+        bottom: -50px;
     }
-    .section1 img{
-       width: 600px;
+    .gallery{
+        margin-top: 70px;
     }
-    .section1 .slider{
-        width: 600px;
-        max-width: 900px;
-        margin-left: auto;
-        margin-right: auto;
 
-    }
+    
 
 }

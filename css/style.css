@@ -27,7 +27,7 @@ body{
 }
 .nav ul li{
     display: inline-block;
-    margin-right: 70px;
+    margin-right: 50px;
 }
 .nav ul li a{
     text-decoration: none;
