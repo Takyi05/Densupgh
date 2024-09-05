@@ -7,7 +7,7 @@ body{
 }
 .nav{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     width: 80%;
     align-items: center;
     margin-left: auto;
