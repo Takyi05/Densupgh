@@ -94,7 +94,7 @@ button{
     gap: 20px;
  }
  .staff2 .card{
-    width: 80%;
+    width: 100%;
 
  }
  .staff2 .card img{
@@ -314,13 +314,13 @@ footer img{
     .staff2 .card{
         line-height: 1em;
         font-size: 0.8em;
-        height: 320px;
+        height: 280px;
     }
     .staff2 .card img{
-        height: 220px;
+        height: 190px;
     }
     .card{
-       width: 80%;
+       width: 90%;
        margin-left: auto;
        margin-right: auto;
        margin-bottom: 25px; 
@@ -367,13 +367,13 @@ footer img{
     .card{
         line-height: 1em;
         font-size: 15px;
-        height: 355px;
+        height: 300px;
     }
     .card img{
-        height: 250px;
+        height: 200px;
     }
      .staff2 .card img{
-        height: 250px;
+        height: 200px;
      }
     
 }
