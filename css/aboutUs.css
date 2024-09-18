@@ -83,10 +83,9 @@ button{
     font-size: 2em;
  }
  .staff{
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
  }
  .staff2{
     display:grid;
@@ -103,7 +102,7 @@ button{
  }
 
  .card{
-    width: 28%;
+    width: 100%;
     height: 450px;
     background-color: rgb(211, 18, 18);
     box-shadow: 10px 10px 10px rgb(0 0 0 / 0.6);
@@ -298,14 +297,15 @@ footer img{
         text-align: center;
     }
     .BG p{
-        font-size: 15px;
+        font-size: 19px;
         text-align: justify;
     }
     .section2 h2{
         font-size: 20px;
     }
     .staff{
-        display: block;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
     .staff2{
         grid-template-columns: repeat(2, 1fr);
@@ -313,22 +313,23 @@ footer img{
     }
     .staff2 .card{
         line-height: 1em;
-        font-size: 0.8em;
-        height: 280px;
+        font-size: 0.9em;
+        height: 300px;
     }
     .staff2 .card img{
         height: 190px;
     }
     .card{
-       width: 90%;
+       width: 100%;
        margin-left: auto;
        margin-right: auto;
        margin-bottom: 25px; 
        line-height: 1em;
-       height: 350px;
+       height: 290px;
+       font-size: 0.9em;
     }
     .card img{
-        height: 250px;
+        height: 190px;
     }
    
     footer{

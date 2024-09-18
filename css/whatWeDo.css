@@ -280,7 +280,7 @@ footer img{
     }
     .section1 article ul li{
         list-style: disc;
-        font-size: 0.8rem;
+        font-size: 0.94em;
         margin-left: -20px;
         line-height: 1.5em;
         margin-bottom: 10px;
@@ -296,7 +296,7 @@ footer img{
     }
     .gallery{
         width: 90%;
-        margin-top: 150px;
+        margin-top: 300px;
         line-height: 0.5em;
     }
     .gallery h1 , h2{
@@ -362,4 +362,9 @@ footer img{
 
     
 
+}
+@media screen and (min-width: 900px) and (max-width:1024px) {
+    .gallery{
+        margin-top: 70px;
+    }
 }

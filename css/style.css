@@ -362,8 +362,8 @@ footer img{
         margin-top: 40px;
     }
     .head p{
-        font-size: 12px;
-        width: 80%;
+        font-size: 16px;
+        width: 90%;
         margin-left: 30px;
         margin-right: 30px;
 
@@ -376,20 +376,20 @@ footer img{
     }
     .section1{
         display:block;
-        top: 54px;
+        top: 20px;
     }
     .section1 article{
-        width: 80%;
+        width: 100%;
         line-height: 1.5rem;
     }
     .section1 article h3{
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .section1 article h2{
-        font-size: 1.17em;
+        font-size: 1.3em;
     }
     .section1 article p{
-        font-size: 0.6em;
+        font-size: 0.95em;
     }
     .section1 article button{
         padding: 9px 10px;
@@ -417,7 +417,10 @@ footer img{
     .aside{
         font-size: 0.8em;
     }
-    footer h4{
+    .footer{
+        bottom: -50px;
+    }
+    .footer h4{
         font-size: 0.8em;
     }
 }
