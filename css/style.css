@@ -295,56 +295,10 @@ footer img{
 .sidebar button:hover{
     background-color: transparent;
 }
-.paymentType{
-    background-color:  rgb(255, 255, 255);
-    backdrop-filter:blur(70px);
-    width: 40%;
-    height: 100vh;
-    position: fixed;
-    top: 0px;
-    z-index:999;
-    left: 60%;
-    visibility:hidden;
-    transform: translateX(100%);
-    transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
-}
-.paymentType.visible {
-    visibility: visible;
-    transform: translateX(0);
-}
-.paymentType ul a{
-    text-decoration: none;
-    color: black;
-}
-
-.paymentType ul{
-    list-style: none;
-}
-.paymentType ul li{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    width: 100%;
-}
-.paymentType ul li:hover{
-    background-color: rgba(83, 75, 75, 0.124);
-}
-.paymentType ul li svg{
-    height: 20px;
-
-
-}
-.paymentType ul li img{
-    height: 20px;
-}
-.paymentType ul li{
-    display: flex;
-    align-items: center;
-}
 
 /* max-width */
 @media screen and (max-width: 600px) {
     .nav{
-        margin-left: 30px;
         justify-content: space-between;
     }
 	.nav ul,.nav button{
@@ -355,6 +309,7 @@ footer img{
     }
     .nav .fa-solid.fa-bars{
         display: block;
+        margin-left: 250px;
     }
 
     .head h1{
@@ -435,6 +390,7 @@ footer img{
     }
     .nav .fa-solid.fa-bars{
         display: block;
+        margin-left: 450px;
     }
     .section1{
         display:block;

@@ -7,14 +7,6 @@ function closeSidebar(){
     const sidebar=document.querySelector('.sidebar')
     sidebar.classList.remove('visible')
 }
-function showPaymentMethod(){
-    const paymentMethod=document.querySelector('.paymentType')
-    paymentMethod.classList.add('visible')
-}
-function closePaymentMethod(){
-    const paymentMethod=document.querySelector('.paymentType')
-    paymentMethod.classList.remove('visible')
-}
 
  let backToTopButton = document.getElementById("backToTop");
 
