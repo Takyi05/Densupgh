@@ -227,6 +227,9 @@ footer img{
         display: block;
         margin-left: 250px;
     }
+    .container .heading h3{
+        font-size: 2em;
+    }
     .container .box{
         flex-direction: column;
     }
