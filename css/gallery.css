@@ -74,6 +74,14 @@ button{
 .icons i{
     font-size: 25px;
 }
+.footer .aside{
+    text-align: center;
+}
+.footer .aside a{
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+}
 .sidebar{
     background-color:  rgba(255, 255, 255, 0.775);
     backdrop-filter:blur(70px);
